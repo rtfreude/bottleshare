@@ -1,0 +1,275 @@
+p {
+  font-family: $text-standard;
+  font-size: $text-medium;
+  margin: 1px;
+}
+
+.comp-name {
+  font-family: $text-title;
+  font-size: $text-xlarge;
+}
+
+.header-titles {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin-top: 0 !important;
+}
+
+.btn-group>.btn:first-child {
+  font-family: $text-standard;
+  font-size: $text-medium;
+  border-radius: 4px;
+}
+
+.creation-date {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin: 5px;
+  padding-right: 5px;
+}
+
+.details {
+  background-color: $color-info-containers;
+  height:37px;
+}
+
+.job-url {
+  background-color: $color-info-containers;
+  color: $color-text-light;
+  padding: 5px;
+  width: 50%;
+  float: left;
+}
+
+.position-details-info {
+  font-family: $text-standard;
+  font-size: $text-medium;
+  padding-left: 5px;
+  width: 50%;
+  height: 100%;
+}
+
+.details-info {
+  background-color: $color-info-containers;
+  border-radius: 0 0 5px 5px;
+}
+
+.position-details {
+  color: $color-text-subheaders;
+  background-color: $color-info-containers;
+  padding: 0 5px 5px 5px;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+hr {
+  margin: 3px;
+}
+
+h4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.main-view {
+  height: 1250px;
+  width:100%;
+  padding: 25px;
+}
+
+.job-area {
+  float: left;
+  width: 75%;
+}
+
+.app-contacts {
+  border: 1px solid $color-info-containers;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: $color-info-containers;
+  height: 100%;
+  width: 24%;
+  float: left;
+}
+
+
+.job-information-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.act-title-text {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.activity-title {
+  font-family: $text-title;
+  font-size: $text-large;
+  background-color: $color-header;
+  border-radius: 5px 5px 0 0;
+  padding-left: 5px;
+  height: 31px;
+  width: 100%;
+  text-align: center;
+  color: $color-text-light;
+}
+.activity-log {
+  width: 100%;
+  flex-basis: 60%;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  flex-order: 2;
+}
+
+.activity-scroll {
+  word-wrap: normal;
+  border-radius: 0 0 5px 5px;
+  height: 400px;
+  width: 100%
+}
+
+.activity {
+  word-wrap: normal;
+  border: solid $color-header 1px;
+  background-color: $color-info-containers;
+}
+
+.activity-description {
+  background-color: $color-info-containers;
+  clear: right;
+  padding: 7px;
+  word-wrap: normal;
+  width: 98%;
+}
+
+.action-head {
+  padding-left: 7px;
+  border-bottom: solid $color-header 1px;
+  overflow: auto;
+  color: $color-text-dark;
+  width: 100%;
+}
+
+.activity-date {
+ padding-left: 7px;
+ overflow: auto;
+ color: $color-text-subheaders;
+ background-color: $color-info-containers;
+ width: 98%;
+}
+
+.basic-heading {
+  background-color: $color-header;
+  color: $color-text-light;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 60%;
+}
+
+.basic-information {
+  background-color: $color-info-containers;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 60%;
+}
+
+#contact-name-box {
+  margin:0;
+  padding:5px;
+  background-color: $color-info-containers;
+  color:$color-text-subheaders;
+}
+
+.contact-text {
+  padding-left: 7px;
+  padding-bottom: 7px;
+}
+
+#contact-name-text {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin: 0px;
+}
+
+.creation-info {
+  margin-right: 5px;
+}
+
+.company-info {
+  margin-left: 5px;
+}
+
+.head-color {
+  width: 100%;
+  height: 20px;
+  background-color: $color-header;
+  overflow: auto;
+  z-index: 10;
+}
+
+.job-status {
+  margin: 5px;
+}
+
+.interview-details {
+  background-color: $color-info-containers;
+  color: $color-text-subheaders;
+  font-style: bold;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding-left: 7px;
+}
+
+.company-details {
+  font-family: $text-title;
+  font-size: $text-large;
+  border-radius: 5px 5px 0 0;
+  margin: 5px;
+}
+
+.offer-details {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin: 5px 5px 0 5px;
+}
+
+.large-plus-sign {
+  font-size: 72px;
+  color: gray;
+}
+
+.update-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 0 0 0;
+  border-radius: 5px;
+}
+
+#job-info-button {
+  padding: 0px;
+  font-family: $text-standard;
+  font-size: $text-medium;
+  text-align: center;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.goal-info-button {
+  margin-right: 5px;
+  margin-top: 147px;
+  align-self: flex-end;
+  font-family: $text-standard;
+  font-size: $text-medium;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+}

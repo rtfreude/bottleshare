@@ -1,0 +1,112 @@
+body {
+  background-color: $color-background;
+}
+.button-container {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+
+.job-list-scroll {
+  height: 440px !important;
+}
+
+.bottom-button {
+  clear: right;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button {
+    font-family: $text-standard;
+    font-size: $text-small;
+    float: right;
+    width: 175px;
+    background-color: $color-button-background;
+    color: $color-text-button;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,0.2), 0 6px 20px 0 rgba(1,1,1,0.2);
+}
+
+.job-card{
+  width: 100%;
+}
+
+.job-app-header {
+  height: 40px;
+  border-radius: 5px 5px 0 0;
+  background-color: $color-header;
+}
+
+.job-app-text {
+  font-family: $text-title;
+  font-size: $text-large;
+  margin: 0px;
+  padding-top: 7px;
+  color: $color-text-light;
+
+}
+
+.root-main {
+
+  text-align: center;
+  margin: auto;
+  height: 600px;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.root-main-apps {
+  height: 550px;
+  background-color: $color-info-containers;
+  float: left;
+  text-align: center;
+  width: 32%;
+  border-radius: 7px 7px 5px 5px;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.root-main-tasks {
+  height: 550px;
+  background-color: $color-info-containers;
+  float: left;
+  text-align: center;
+  width: 32%;
+  border-radius: 7px 7px 5px 5px;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.root-main-goals {
+  height: 550px;
+  background-color: $color-info-containers;
+  float: left;
+  text-align: center;
+  width: 32%;
+  border-radius: 7px 7px 5px 5px;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.root-background {
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: $color-background;
+}
+

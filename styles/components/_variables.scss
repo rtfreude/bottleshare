@@ -1,0 +1,56 @@
+/*SITE COLORS*/
+
+//#b8d20b //LIME GREEN
+//#efefef //LIGHT GREY
+//#caebf2 //LIGHT BLUE
+//#a9a9a9 //DARK GREY
+//#ff3b3f //REDDISH
+
+//INFILL COLORS
+
+$color-background: #697894; //BACKGROUND COLOR FOR ENTIRE SITE
+$color-header: #1A5E8E; //HEADER COLOR
+$color-info-containers: #ccc; //INFORMATION CONTAINER COLOR BELOW HEADERS
+$color-card: #caebf2; //JOB APPLICATION CARD COLOR
+$color-button-background: #619199; //ALL BUTTONS BACKGROUND COLOR
+
+//TEXT STILL NEEDS SOME ORGANIZATION
+
+$color-text-light: white; //TYPICALLY HEADER TEXT
+$color-text-subheaders: #475672;
+$color-text-dark: white;  //TYPICALLY BODY TEXT
+$color-text-button: white; //ALL BUTTON TEXT
+
+//FONT SIZE
+
+$text-xsmall: 8px;
+$text-small: 14px;
+$text-medium: 16px;
+$text-large: 20px;
+$text-xlarge: 32px;
+
+//FONT STYLE
+
+$text-title: Verdana;
+$text-standard: Geneva;
+
+/* colors tried
+scheme 1
+  dark purple = 7f4660
+  light purple = A7A2CC
+  light teal for buttons = 619199
+  light blue for cards = caebf2
+  headers = 20717f
+  background = d4d1b1
+
+scheme 2
+  background = A7A2CA
+  headers = 617F5F
+  buttons = 617F5F
+  dark text = 094B7F
+  job card = 6E996A
+  containers = D4C7BE
+
+logo orange = F1AE57
+soft orange = F8BE74
+*/

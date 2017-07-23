@@ -1,0 +1,70 @@
+.dashboard-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-list {
+  height: 100%;
+  flex-basis: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.job-list-button {
+  margin-top: 15px !important;
+}
+
+.task-list {
+  height: 100%;
+  flex-basis: 50%;
+  margin-left: 5px;
+}
+
+.card-horizontal {
+  height: 50px;
+  background-color: $color-card;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.ind-card {
+  width: 100%;
+}
+
+.card-company {
+  padding-top: 12px;
+  padding-left: 5px;
+  text-align: left;
+  width: 33%;
+  float: left;
+}
+
+.card-status {
+  text-align: center;
+  padding-top: 12px;
+  width: 33%;
+  float: left;
+}
+
+.card-icons {
+  padding-right: 5px;
+  padding-top: 12px;
+  text-align: right;
+  width: 33%;
+  float: right;
+}
+
+.add-task {
+  font-family: $text-standard;
+  font-size: 2rem;
+}
+
+.description, .date-due {
+  font-family: $text-standard;
+  display: inline-flex;
+  font-size: $text-small;
+  margin: auto;
+}
+

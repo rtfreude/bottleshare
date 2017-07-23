@@ -1,0 +1,51 @@
+.main-splash {
+  background-color: $color-background !important;
+  position: relative;
+}
+
+.splash-bottom {
+  margin-top: 25px;
+
+}
+
+button.button {
+  font-family: $text-standard;
+  font-size: $text-medium;
+  border-radius: 5px;
+}
+
+.business-header {
+    position: relative;
+    height: 400px;
+    background: url("/images/slider3.png") center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+.position-type {
+  position: absolute;
+}
+.text-center {
+  color: $color-text-dark;
+  font-family: $text-standard;
+  text-align: center;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,0.2), 0 6px 20px 0 rgba(1,1,1,0.2);
+}
+
+footer {
+    margin: 50px 0;
+}
+
