@@ -1,0 +1,11 @@
+exports.id = 0;
+exports.modules = {
+
+/***/ "./src/App.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(\"./node_modules/css-loader/lib/css-base.js\")(undefined);\n// imports\n\n\n// module\nexports.push([module.i, \".Home {\\n  text-align: center;\\n}\\n\\n.Home-logo {\\n  animation: Home-logo-spin infinite 20s linear;\\n  height: 80px;\\n}\\n\\n.Home-header {\\n  background-color: #222;\\n  height: 150px;\\n  padding: 20px;\\n  color: white;\\n}\\n\\n.Home-intro {\\n  font-size: large;\\n}\\n\\n.Home-resources {\\n  list-style: none;\\n}\\n\\n.Home-resources > li {\\n  display: inline-block;\\n  padding: 1rem;\\n}\\n\\n@keyframes Home-logo-spin {\\n  from { transform: rotate(0deg); }\\n  to { transform: rotate(360deg); }\\n}\\n\", \"\"]);\n\n// exports\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvQXBwLmNzcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9BcHAuY3NzP2I2ZDkiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0cyA9IG1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIi4uL25vZGVfbW9kdWxlcy9jc3MtbG9hZGVyL2xpYi9jc3MtYmFzZS5qc1wiKSh1bmRlZmluZWQpO1xuLy8gaW1wb3J0c1xuXG5cbi8vIG1vZHVsZVxuZXhwb3J0cy5wdXNoKFttb2R1bGUuaWQsIFwiLkhvbWUge1xcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xcbn1cXG5cXG4uSG9tZS1sb2dvIHtcXG4gIGFuaW1hdGlvbjogSG9tZS1sb2dvLXNwaW4gaW5maW5pdGUgMjBzIGxpbmVhcjtcXG4gIGhlaWdodDogODBweDtcXG59XFxuXFxuLkhvbWUtaGVhZGVyIHtcXG4gIGJhY2tncm91bmQtY29sb3I6ICMyMjI7XFxuICBoZWlnaHQ6IDE1MHB4O1xcbiAgcGFkZGluZzogMjBweDtcXG4gIGNvbG9yOiB3aGl0ZTtcXG59XFxuXFxuLkhvbWUtaW50cm8ge1xcbiAgZm9udC1zaXplOiBsYXJnZTtcXG59XFxuXFxuLkhvbWUtcmVzb3VyY2VzIHtcXG4gIGxpc3Qtc3R5bGU6IG5vbmU7XFxufVxcblxcbi5Ib21lLXJlc291cmNlcyA+IGxpIHtcXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcXG4gIHBhZGRpbmc6IDFyZW07XFxufVxcblxcbkBrZXlmcmFtZXMgSG9tZS1sb2dvLXNwaW4ge1xcbiAgZnJvbSB7IHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9XFxuICB0byB7IHRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IH1cXG59XFxuXCIsIFwiXCJdKTtcblxuLy8gZXhwb3J0c1xuXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvQXBwLmNzc1xuLy8gbW9kdWxlIGlkID0gLi9zcmMvQXBwLmNzc1xuLy8gbW9kdWxlIGNodW5rcyA9IDAiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/App.css\n");
+
+/***/ })
+
+};
