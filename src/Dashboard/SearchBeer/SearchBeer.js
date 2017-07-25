@@ -64,7 +64,7 @@ class SearchBeer extends Component {
 
     return $.get('/beername', {beerRequest: this.state.inputValue})
     .then((data) => {
-      //console.log('beerCall', data)
+      console.log('beerCall', data)
         this.setState({
           beerName: data.data[0].name,
           displayName: data.data[0].name,
@@ -76,7 +76,7 @@ class SearchBeer extends Component {
   render() {
     return (
       <div className="beer-search">
-        <h3>Search for info on your favorite beer.</h3>
+        <h3>Beer Quick Search!</h3>
         <div className="input-group">
           <MuiThemeProvider muiTheme={getMuiTheme()}>
             <AutoComplete

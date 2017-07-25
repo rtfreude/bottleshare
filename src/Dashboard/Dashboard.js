@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FavoriteBrewery      from './FavoriteBrewery/FavoriteBrewery';
 import FavoriteBeer         from './FavoriteBeer/FavoriteBeer';
-import SearchBeer           from '../App/SearchBeer/SearchBeer'
+import SearchBeer           from './SearchBeer/SearchBeer'
 
 import './dashboard.css';
 

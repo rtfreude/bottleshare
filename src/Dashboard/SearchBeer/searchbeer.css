@@ -1,9 +1,11 @@
 .beer-search {
-  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+
   display: flex;
   flex-direction: column;
   width: 33%;
-  height: 100px;
+  height: 100%;
   text-align: center;
 }
 
