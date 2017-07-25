@@ -60,7 +60,6 @@ class SearchBeer extends Component {
   handleClick () {
     //console.log('input value: ', this.state.inputValue)
     //this.beerCall(this.state.inputValue);
-
   }
 
   performSearch() {
