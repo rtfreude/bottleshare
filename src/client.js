@@ -1,4 +1,4 @@
-import App from './App';
+import App from './App/App';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 import React from 'react';
 import { render } from 'react-dom';
