@@ -1,6 +1,10 @@
 .beer-search {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
   width: 33%;
   height: 100px;
+  text-align: center;
 }
 
 .input-group {

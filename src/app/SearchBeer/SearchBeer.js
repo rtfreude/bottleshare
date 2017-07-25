@@ -76,6 +76,7 @@ class SearchBeer extends Component {
   render() {
     return (
       <div className="beer-search">
+        <h3>Search for info on your favorite beer.</h3>
         <div className="input-group">
           <MuiThemeProvider muiTheme={getMuiTheme()}>
             <AutoComplete

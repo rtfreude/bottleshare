@@ -1,4 +1,3 @@
-
 .dashboard-container {
   display: flex;
   flex-direction: column;
@@ -8,7 +7,8 @@
 .search-bar {
   display: flex;
   flex-direction: row;
-  width: 100%
+  width: 100%;
+  height: 200px;
 }
 
 .dashboard-cards {
