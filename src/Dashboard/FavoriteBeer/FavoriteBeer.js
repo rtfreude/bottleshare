@@ -13,16 +13,16 @@ class FavoriteBeer extends Component {
 
   render() {
     return (
-      <div className="beer-container">
-        <div className="beer-header">
-          <p className="header-text"> My Favorite Brews! </p>
+      <div className="favbeer-container">
+        <div className="favbeer-header">
+          <p className="favheader-text"> My Favorite Brews! </p>
         </div>
-        <div className="beer-body">
+        <div className="favbeer-body">
 
-            <div className="beer-card">
-              <p className="beer-name">{this.state.beerName}</p>
-              <p className="beer-type">{this.state.beerType}</p>
-              <p className="beer-rating">{this.state.beerRating}</p>
+            <div className="favbeer-card">
+              <p className="favbeer-name">{this.state.beerName}</p>
+              <p className="favbeer-type">{this.state.beerType}</p>
+              <p className="favbeer-rating">{this.state.beerRating}</p>
             </div>
 
         </div>

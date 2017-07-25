@@ -24,6 +24,7 @@ class SearchBeer extends Component {
     this.onUpdateInput = this.onUpdateInput.bind(this);
     this.close = this.close.bind(this);
     this.open = this.open.bind(this);
+    this.toggleModal = this.toggleModal.bind(this)
   }
 
   close() {
@@ -44,13 +45,22 @@ class SearchBeer extends Component {
     });
   }
 
+  toggleModal () {
+    const self = this;
+    self.beerCall();
+    self.setState({
+      showModal: !self.state.showModal
+    })
+  }
+
   componentDidMount() {
-    this.beerCall(this.state.inputValue);
+    //this.beerCall(this.state.inputValue);
   }
 
   handleClick () {
     //console.log('input value: ', this.state.inputValue)
     this.beerCall(this.state.inputValue);
+
   }
 
   performSearch() {
@@ -73,17 +83,58 @@ class SearchBeer extends Component {
   }
 
   beerCall() {
-
     return $.get('/beername', {beerRequest: this.state.inputValue})
     .then((data) => {
       console.log('beerCall', data)
-        this.setState({
-          beerName: data.data[0].name,
-          displayName: data.data[0].name,
-          beerStyle: data.data[0].style.shortName,
-          showModal: !this.state.showModal
-        })
+      let srm;
+      let fg;
+      let description;
+      let taste;
+      let shortName;
+      let abv;
+      let image;
+
+      if(data.data[0].style !== undefined) {
+        srm = (+data.data[0].style.srmMax+(+data.data[0].style.srmMin))/2;
+        taste = data.data[0].style.description;
+        shortName = data.data[0].style.shortName;
+      } else {
+        srm = 'No SRM'
+        taste = 'No Description'
+        shortName = 'No Name'
+      }
+
+      if(data.data[0].style !== undefined) {
+        fg = parseFloat((+data.data[0].style.fgMax+(+data.data[0].style.fgMin))/2).toFixed(4);
+      } else {
+        fg = 'No fg'
+      }
+
+      if(data.data[0].description !== undefined) {
+        description = data.data[0].description;
+      } else {
+        description = 'No description available...'
+      }
+
+      if(data.data[0].labels !== undefined) {
+        image = data.data[0].labels.medium;
+      } else {
+        image = 'beer.jpg'
+      }
+
+      this.setState({
+        beerName: data.data[0].name,
+        displayName: data.data[0].name,
+        beerDesc: description,
+        beerTaste: taste,
+        beerImg: image,
+        beerStyle: shortName,
+        beerAbv: data.data[0].abv,
+        srmMax: srm,
+        gravity: fg,
+        ibu: data.data[0].ibu
       })
+    })
   }
 
   render() {
@@ -98,7 +149,7 @@ class SearchBeer extends Component {
               filter            = {AutoComplete.noFilter}
               onTouchTap        = {this.handleClick}
               onUpdateInput     = {this.onUpdateInput}
-              onNewRequest      = {this.handleClick}
+              onNewRequest      = {this.toggleModal}
               floatingLabelText = "Input beer name and hit enter..."
             />
           </MuiThemeProvider>
