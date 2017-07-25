@@ -54,12 +54,12 @@ class SearchBeer extends Component {
   }
 
   componentDidMount() {
-    //this.beerCall(this.state.inputValue);
+    this.beerCall(this.state.inputValue);
   }
 
   handleClick () {
     //console.log('input value: ', this.state.inputValue)
-    this.beerCall(this.state.inputValue);
+    //this.beerCall(this.state.inputValue);
 
   }
 
@@ -147,7 +147,7 @@ class SearchBeer extends Component {
               hintText          = "Input beer..."
               dataSource        = {this.state.dataSource}
               filter            = {AutoComplete.noFilter}
-              onTouchTap        = {this.handleClick}
+              //onTouchTap        = {this.handleClick}
               onUpdateInput     = {this.onUpdateInput}
               onNewRequest      = {this.toggleModal}
               floatingLabelText = "Input beer name and hit enter..."

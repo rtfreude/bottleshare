@@ -58,7 +58,9 @@ server.get('/searchbeer', (req, res) => {
 
       } else if (pageNum >= 2) {
         var flattened = [].concat.apply([], allBeers);
-        res.send(flattened);
+        var sorted = flattened.sort().slice(0, 8)
+        console.log(sorted)
+        res.send(sorted);
         return;
 
       } else {
